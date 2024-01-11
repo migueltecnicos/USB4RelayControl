@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>441</width>
-    <height>374</height>
+    <height>378</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -36,10 +36,10 @@
    <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
-      <x>150</x>
-      <y>90</y>
+      <x>135</x>
+      <y>77</y>
       <width>77</width>
-      <height>79</height>
+      <height>87</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_2">
@@ -75,6 +75,17 @@ color: rgb(255, 255, 255);</string>
      </item>
      <item>
       <widget class="QPushButton" name="cmd_r2_on">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 255, 0);
+background-color: rgb(55, 140, 29);</string>
+       </property>
        <property name="text">
         <string>ON</string>
        </property>
@@ -82,6 +93,16 @@ color: rgb(255, 255, 255);</string>
      </item>
      <item>
       <widget class="QPushButton" name="cmd_r2_off">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(190, 0, 3); color: rgb(255,200, 0);</string>
+       </property>
        <property name="text">
         <string>OFF</string>
        </property>
@@ -92,10 +113,10 @@ color: rgb(255, 255, 255);</string>
    <widget class="QWidget" name="layoutWidget_2">
     <property name="geometry">
      <rect>
-      <x>240</x>
-      <y>90</y>
+      <x>234</x>
+      <y>77</y>
       <width>77</width>
-      <height>79</height>
+      <height>87</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -131,6 +152,17 @@ color: rgb(255, 255, 255);</string>
      </item>
      <item>
       <widget class="QPushButton" name="cmd_r3_on">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 255, 0);
+background-color: rgb(55, 140, 29);</string>
+       </property>
        <property name="text">
         <string>ON</string>
        </property>
@@ -138,6 +170,16 @@ color: rgb(255, 255, 255);</string>
      </item>
      <item>
       <widget class="QPushButton" name="cmd_r3_off">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(190, 0, 3); color: rgb(255,200, 0);</string>
+       </property>
        <property name="text">
         <string>OFF</string>
        </property>
@@ -148,10 +190,10 @@ color: rgb(255, 255, 255);</string>
    <widget class="QWidget" name="layoutWidget_3">
     <property name="geometry">
      <rect>
-      <x>330</x>
-      <y>90</y>
+      <x>331</x>
+      <y>77</y>
       <width>77</width>
-      <height>79</height>
+      <height>87</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout_5">
@@ -187,6 +229,17 @@ color: rgb(255, 255, 255);</string>
      </item>
      <item>
       <widget class="QPushButton" name="cmd_r4_on">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 255, 0);
+background-color: rgb(55, 140, 29);</string>
+       </property>
        <property name="text">
         <string>ON</string>
        </property>
@@ -194,6 +247,16 @@ color: rgb(255, 255, 255);</string>
      </item>
      <item>
       <widget class="QPushButton" name="cmd_r4_off">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(190, 0, 3); color: rgb(255,200, 0);</string>
+       </property>
        <property name="text">
         <string>OFF</string>
        </property>
@@ -204,10 +267,10 @@ color: rgb(255, 255, 255);</string>
    <widget class="QWidget" name="">
     <property name="geometry">
      <rect>
-      <x>55</x>
-      <y>90</y>
+      <x>37</x>
+      <y>77</y>
       <width>77</width>
-      <height>79</height>
+      <height>87</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -243,6 +306,17 @@ color: rgb(255, 255, 255);</string>
      </item>
      <item>
       <widget class="QPushButton" name="cmd_r1_on">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color: rgb(0, 255, 0);
+background-color: rgb(55, 140, 29);</string>
+       </property>
        <property name="text">
         <string>ON</string>
        </property>
@@ -250,6 +324,16 @@ color: rgb(255, 255, 255);</string>
      </item>
      <item>
       <widget class="QPushButton" name="cmd_r1_off">
+       <property name="font">
+        <font>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(190, 0, 3); color: rgb(255,200, 0);</string>
+       </property>
        <property name="text">
         <string>OFF</string>
        </property>

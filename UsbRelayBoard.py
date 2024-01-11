@@ -1,5 +1,6 @@
 import serial
 
+
 class UsbRelayBoard:
     def __init__(self, port, read_response=False, timeout=3):
         # Configurar el puerto serie

@@ -1,7 +1,7 @@
 from PyQt5.QtWidgets import QMainWindow
-from PyQt5.QtGui import QPixmap, QPalette
 from MainWindow_ui import Ui_MainWindow
 from UsbRelayBoard import UsbRelayBoard
+
 
 class MainWindow(QMainWindow):
     def __init__(self):
